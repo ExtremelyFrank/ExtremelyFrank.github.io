@@ -1,0 +1,24 @@
+.intro {
+    padding-top: 20em;   
+    text-shadow: 1px 1px; 
+}
+
+h3 {
+    font-weight: 200;
+}
+
+button {
+    background-color: #cc0000;
+}
+
+#brand {
+    color: #cc0000;    
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        padding-top: 5em;   
+        text-shadow: 1px 1px; 
+    }
+}

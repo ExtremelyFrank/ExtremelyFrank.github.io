@@ -1,0 +1,27 @@
+.container {
+  padding-top: 5em;
+}
+
+.card-body {
+  padding: .5em;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+#project-badge {
+  margin-right: .5em;  
+  background-color: #cc0000;
+  margin-bottom: 2px;
+}
+
+.btn {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-top: 2em;
+  }
+}

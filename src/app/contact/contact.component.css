@@ -1,0 +1,34 @@
+h1 {
+    padding-bottom: 1em;
+    font-weight: 200;
+}
+
+button {
+    background-color: #cc0000;
+}
+
+input, textarea {
+    min-width: 10em;
+}
+
+.contact-form {
+    padding-top: 10em;
+    padding-left: 40em;    
+}
+
+.fas {
+    padding-top: 0.1em;
+    padding-right: 0.25em;
+}
+
+#messages {
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        padding-top: 1em;
+        padding-left: 1em;
+        width: 100%;
+    }
+}

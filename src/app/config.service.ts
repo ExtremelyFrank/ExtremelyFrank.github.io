@@ -57,12 +57,14 @@ export const configuration = {
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           more: "More..."
       },
+      */
       {
           img: "../../assets/imgs/projects_imgs/4.PNG",
-          name: "HTML5 Tags Template",
+          name: "Lithophaniac",
           desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           more: "More..."
       },
+      /*
       {
           img: "../../assets/imgs/projects_imgs/5.PNG",
           name: "Registeration Template",

@@ -1,8 +1,0 @@
-{
-  "universal": {
-    "project": "angular7-portfolio",
-    "skipInstall": false,
-    "directory": ".",
-    "http": true
-  }
-}

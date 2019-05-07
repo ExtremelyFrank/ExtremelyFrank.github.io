@@ -1,60 +1,11 @@
-<div class="container about">
-    <div class="row">
-        <div class="col-lg-2">
-        </div>
-        <div class="col-lg-8">
-            <p>I’ve always had an interest in science and technology. As I grew older I discovered the magic of
-                computing and electronics.
-                I’ve always been interested in how electronic devices were built and functioned.
-                Shortly afterward I started learning about coding and became obsessed with how computers can enrich our
-                lives.
-                I was amazed that new experiences could be created simpy by writing code into an editor.
-                I started creating websites for friends and family and developing my own personal projects.
-                As an adult working in the tech industry I began learning more about how the science of data could be
-                used to develop models
-                that can deliver insights into how people use technology in their everyday lives and how that technology
-                can be iterated and
-                improved upon using data.</p>
-
-            <p>My specialties include front end development with HTML, CSS, and Javascript.
-                For backend development I specialize in Python, PostgreSQL, and mySQL.
-                I primarily work with numPy, pandas, Tableau, and R for data analysis.</p>
-
-            <p>If you would like to work together to create something special feel free to complete the contact form or
-                download a copy of my
-                resume in your preferred format below.</p>
-            <h3 class="text-center">Skills</h3>
-            <div class="card-group text-primary text-center">
-                <div class="card">
-                    <h1><i class="fas fa-code"></i></h1>
-                    <h5>Web Development</h5>
-                    <div class="card-body">
-                        <ul class="list-unstyled text-left">
-                            <li><i class="fas fa-plus"></i> HTML, CSS, Javascript, & Python</li>
-                            <li><i class="fas fa-plus"></i> Angular</li>
-                            <li><i class="fas fa-plus"></i> mySQL & PostgreSQL</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <h1><i class="fas fa-atom"></i></h1>
-                    <h5>Data Science</h5>
-                    <div class="card-body">
-                        <ul class="list-unstyled text-left">
-                            <li><i class="fas fa-plus"></i> R</li>
-                            <li><i class="fas fa-plus"></i> Pandas & numPy</li>
-                            <li><i class="fas fa-plus"></i> Tableau, RStudio, & Jupyter Notebook</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="resume-dl" class="text-center">
-                <h3>Resume <i class="fas fa-download"></i></h3>
-                <a href="/assets/resume/JT-Robinson-Resume-2019.txt" class="btn btn-primary" role="button" download="JT-Robinson-Resume-2019.txt"><i class="fas fa-file-alt file-icon"></i>TXT</a>
-                <a href="/assets/resume/JT-Robinson-Resume-2019.pdf" class="btn btn-primary" role="button" download="JT-Robinson-Resume-2019.pdf"><i class="fas fa-file-pdf file-icon"></i>PDF</a>
-                <a href="/assets/resume/JT-Robinson-Resume-2019.doc" class="btn btn-primary" role="button" download="JT-Robinson-Resume-2019.doc"><i class="fas fa-file-word file-icon"></i>Word</a>
-            </div>
-            <div class="col-lg-2">
-            </div>
-        </div>
-    </div>
+<div class="about">
+  <div class="about-image">
+    <img src="{{about.img}}" alt="ExtremelyFrank"/>
+  </div>
+  <div class="about-content">
+    <h1>{{about.title}}</h1>
+    <hr/>
+    <p>{{about.desc}}</p>
+  </div>
+</div>
+<app-footer></app-footer>

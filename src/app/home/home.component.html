@@ -1,7 +1,16 @@
-<div class="intro">
-  <h1 class="display-2 text-center">Hi! I'm <span id="brand">J.T. Robinson</span></h1>
-  <h3 class="text-center">Full Stack Developer and Data Analyst based in Charlotte, NC</h3>
-  <div class="contact-button text-center">
-    <button [routerLink]="['contact']" class="btn btn-primary btn-lg shadow-lg">Contact Me</button>
-  </div>
+<section  class="container">
+    <div *ngFor="let char of home.chars" class="{{char.classname}}" [ngStyle]="{'animation-delay': char.animation}">{{char.letter}}</div>
+</section>
+<section class="infoCont">
+    <div id="username">
+      <div class="username" style="animation-delay: 1.5s;">{{home.username}}</div>
+    </div>
+</section>
+
+
+
+<!-- Bubbles -->
+<div id="background-wrap">
+    <div *ngFor="let bubble of home.bubbles" class="{{bubble.classname}} {{bubble.size}}"></div>
 </div>
+

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectList } from '../project-list';
-declare let $: any;
+import { ConfigService } from '../config.service';
+
 
 @Component({
   selector: 'app-projects',
@@ -9,11 +9,13 @@ declare let $: any;
 })
 export class ProjectsComponent implements OnInit {
 
-  projects = ProjectList;
+  projects={};
 
-  constructor() { }
+  constructor(private config:ConfigService) {
+    this.projects= this.config.getConfig().projects;
+   }
 
   ngOnInit() {
-
   }
+
 }

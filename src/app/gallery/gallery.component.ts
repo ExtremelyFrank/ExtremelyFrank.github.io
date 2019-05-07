@@ -1,20 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { ConfigService } from '../config.service';
+import {Component, OnInit} from '@angular/core';
+import {ConfigService} from '../config.service';
 
 @Component({
-  selector: 'app-gallery',
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+    selector: 'app-gallery',
+    templateUrl: './gallery.component.html',
+    styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
 
-  gallery={};
+    public gallery: any;
 
-  constructor(private config:ConfigService) {
-    this.gallery= this.config.getConfig().gallery;
-   }
+    constructor(private config: ConfigService) {
+        this.gallery = this.config.getConfig().gallery;
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

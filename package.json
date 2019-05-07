@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "makeready": "ng build --prod --base-href http://www.extremelyfrank.com",
+    "makeready": "ng build --prod --base-href http://www.extremelyfrank.com/",
     "publish": "ngh -S -n ExtremelyFrank -e frcolejr@gmail.com -c www.extremelyfrank.com -b master"
   },
   "private": true,

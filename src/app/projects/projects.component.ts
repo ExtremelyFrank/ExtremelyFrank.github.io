@@ -1,21 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import { ConfigService } from '../config.service';
+import {Component, OnInit} from '@angular/core';
+import {ConfigService} from '../config.service';
 
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+    selector: 'app-projects',
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
 
-  projects={};
+    public projects: any;
 
-  constructor(private config:ConfigService) {
-    this.projects= this.config.getConfig().projects;
-   }
+    constructor(private config: ConfigService) {
+        this.projects = this.config.getConfig().projects;
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
